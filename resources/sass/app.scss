@@ -1,7 +1,7 @@
 /** HEADER */
 
-.genA{
-    background-color:white;
+.genA {
+    background-color: white;
     width: 100%;
 }
 
@@ -18,11 +18,11 @@ nav {
 }
 
 .listContainer {
-        margin: 0 10px;
-        height: 100px;
-        display: flex;
-        align-items: center;
-    }
+    margin: 0 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
 
 a {
     text-decoration: none;
@@ -30,12 +30,12 @@ a {
 }
 
 .listContainer:hover {
-        border-bottom: 4px solid blue;
+    border-bottom: 4px solid blue;
 }
 
-.listContainer:hover .headerA{
-            color: blue;
-    }
+.listContainer:hover .headerA {
+    color: blue;
+}
 
 .logo img {
     width: 100px;
@@ -45,11 +45,10 @@ a {
 
 /**** JUMBOTRON ***/
 
-.genB{
+.genB {
     width: 100%;
-    
 }
-.jumbotron{
+.jumbotron {
     width: 100%;
     height: 300px;
     background-image: url(../img/jumbotron.jpg);
@@ -58,7 +57,7 @@ a {
     position: relative;
 }
 
-.currentSeries{
+.currentSeries {
     width: 200px;
     height: 50px;
     background-color: blue;
@@ -71,75 +70,161 @@ a {
     left: 125px;
 }
 
-
 /**** MAIN ***/
 
-main{
+main {
     background-color: black;
 }
 
-.containerComic{
+.containerComic {
     padding: 40px;
     width: 70%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
-.comicCard{
-    width: calc(100%/6);
+.comicCard {
+    width: calc(100% / 6);
     text-align: center;
     padding: 10px;
     color: white;
-
 }
 
+.containerMain {
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+
+    h5 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    .flex-item {
+        display: flex;
+        justify-content: space-between;
+
+        .card-body {
+            width: 70%;
+            .green-line {
+                background-color: rgb(85, 186, 89);
+                border-radius: 5px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                color: white;
+
+                .disponibility {
+                    font-size: 1.5rem;
+                }
+
+                .check {
+                    border: 1px solid rgb(255, 255, 255);
+                    padding: 20px;
+                    font-size: 1.2rem;
+                }
+            }
+            .card-price {
+                padding: 10px;
+                font-size: 1.5rem;
+                color: rgb(255, 255, 255);
+            }
+            .card-text {
+                color: black;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.container-blue {
+    background-color: lightcyan;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .Talents {
+        width: 50%;
+        padding: 50px;
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .artist-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid lightgray;
+            color: rgb(17, 155, 201);
+            ul {
+                width: 50%;
+            }
+        }
+
+        .writers-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            border-top: 1px solid lightgray;
+            color: rgb(17, 155, 201);
+            ul {
+                width: 50%;
+            }
+        }
+    }
+    .Specs {
+        width: 30%;
+        .little-info-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.3rem;
+            margin: 30px 0;
+            border-top: 1px solid lightgray;
+        }
+    }
+}
 /**** BLUE BAR ***/
 
-.genZ{
+.genZ {
     background-color: rgb(2, 130, 249);
     width: 100%;
 
-    nav{
+    nav {
         background-color: rgb(2, 130, 249);
         display: flex;
         justify-content: space-around;
         width: 80%;
         margin: auto;
         padding: 3rem;
-    
-    
-        div{
+
+        div {
             display: flex;
-            width: calc(100%/5);
-            
+            width: calc(100% / 5);
+
             align-items: center;
-            
-    
-            img{
+
+            img {
                 width: 50px;
                 height: 60px;
             }
-    
-            span{
-                p{
+
+            span {
+                p {
                     margin-left: 10px;
                     font-size: 0.8rem;
                 }
             }
-    
         }
     }
 }
 
-
-
-p{
+p {
     color: white;
 }
-
-
 
 /**** FOOTER ***/
 
@@ -153,16 +238,13 @@ p{
 .leftLi h3 {
     color: white;
 
-    
     ul {
         padding-inline-start: 0px;
-
     }
-    
 }
 
-h3{
-  color: white;  
+h3 {
+    color: white;
 }
 
 li {
@@ -170,19 +252,15 @@ li {
     color: gray;
 }
 
-
-
-
 .flex {
     display: flex;
     width: 90%;
     margin: auto;
 }
 
-
 .flex div {
-        padding: 1rem;
-    }
+    padding: 1rem;
+}
 
 .dcBg {
     width: 400px;
@@ -192,19 +270,19 @@ li {
     margin-left: 300px;
 }
 
-/**** SOCIAL ***/ 
+/**** SOCIAL ***/
 
 .genD {
     background-color: black;
     width: 100%;
-  }
-  
-  .flex {
+}
+
+.flex {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .social {
+}
+
+.social {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -214,19 +292,15 @@ li {
     img {
         width: 30px;
         height: 30px;
-      }
+    }
 
-      a{
+    a {
         text-decoration: none;
         color: blue;
     }
-  }
-  
+}
 
-  
-
-  
-  .btn {
+.btn {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -236,12 +310,10 @@ li {
         border: 3px solid blue;
         color: white;
         background-color: black;
-      }
-  }
-  
+    }
+}
 
-  
-  .container{
-      width: 90%;
-      margin: auto;
-  }
+.container {
+    width: 90%;
+    margin: auto;
+}

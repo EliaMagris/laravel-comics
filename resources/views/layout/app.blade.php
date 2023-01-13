@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('page-title')</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         @include('partials.jumbotron')
     
         @yield('main-content')
-        @yield('main-blue')
+        @include('partials.barBlue')
 
         @include('partials.footer')
         @include('partials.footer-subscribe')
@@ -25,6 +26,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: sans-serif
         }
     </style>
 </body>

@@ -89,6 +89,95 @@ main {
   color: white;
 }
 
+.containerMain {
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+}
+.containerMain h5 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.containerMain .flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+.containerMain .flex-item .card-body {
+  width: 70%;
+}
+.containerMain .flex-item .card-body .green-line {
+  background-color: rgb(85, 186, 89);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.containerMain .flex-item .card-body .green-line .disponibility {
+  font-size: 1.5rem;
+}
+.containerMain .flex-item .card-body .green-line .check {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 1.2rem;
+}
+.containerMain .flex-item .card-body .card-price {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+.containerMain .flex-item .card-body .card-text {
+  color: black;
+  margin-top: 20px;
+}
+
+.container-blue {
+  background-color: lightcyan;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-blue .Talents {
+  width: 50%;
+  padding: 50px;
+}
+.container-blue .Talents h2 {
+  margin-bottom: 10px;
+}
+.container-blue .Talents .artist-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgray;
+  color: rgb(17, 155, 201);
+}
+.container-blue .Talents .artist-flex ul {
+  width: 50%;
+}
+.container-blue .Talents .writers-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-top: 1px solid lightgray;
+  color: rgb(17, 155, 201);
+}
+.container-blue .Talents .writers-flex ul {
+  width: 50%;
+}
+.container-blue .Specs {
+  width: 30%;
+}
+.container-blue .Specs .little-info-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  margin: 30px 0;
+  border-top: 1px solid lightgray;
+}
+
 /**** BLUE BAR ***/
 .genZ {
   background-color: rgb(2, 130, 249);
